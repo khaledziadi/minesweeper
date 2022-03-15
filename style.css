@@ -1,0 +1,91 @@
+            BODY {
+                background-image: url("1.png");
+                color: #000000;
+                font-family: courier new;
+                text-align: center;
+                min-height: 100%;
+                background-size: cover;
+                background-repeat: no-repeat;
+            }
+            
+            H1 {
+                margin: 0;
+                color: rgb(255, 166, 0);
+                font-size: 80px;
+                line-height: 50px;
+                min-width: 50px;
+                outline: none;
+                vertical-align: middle;
+                text-shadow: 0 3px 20px red, 0 0 20px rgb(76, 0, 255), 0 0 10px rgb(0, 60, 255), 4px -5px 6px rgb(47, 0, 255), -4px -10px 10px rgb(47, 0, 255), 0 -10px 30px yellow;
+                animation: 2s Blazing infinite alternate linear;
+                position: fixed;
+                top: 10%;
+                left: 36%;
+            }
+            
+            h2 {
+                margin: 0;
+                color: rgb(255, 255, 255);
+                font-size: 80px;
+                line-height: 50px;
+                min-width: 50px;
+                outline: none;
+                vertical-align: middle;
+                text-shadow: 0 3px 20px red, 0 0 20px rgb(255, 135, 22), 0 0 10px rgb(255, 83, 20), 4px -5px 6px rgb(255, 135, 22), -4px -10px 10px rgb(255, 153, 0), 0 -10px 30px rgb(7, 50, 192);
+                animation: 2s Blazing infinite alternate linear;
+                position: fixed;
+                top: 55%;
+                left: 39%;
+            }
+            
+            #grid {
+                position: fixed;
+                top: 37%;
+                left: 39%;
+            }
+            
+            #grid TR TD {
+                border: 1px solid white;
+                background: #ff0059;
+                width: 35px;
+                height: 35px;
+                text-align: center;
+                -webkit-box-shadow: 0px 1px 1px #ff0000;
+                -moz-box-shadow: 0px 1px 1px #ff0000;
+                box-shadow: 0px 1px 1px#ff0000;
+            }
+            
+            #grid TR TD.clicked {
+                background: #001eff;
+            }
+            
+            #grid TR TD.clicked:hover {
+                border-color: #ff0000;
+                animation: 10s change_bg linear;
+            }
+            
+            #grid TR TD.mine {
+                background: #ffffff;
+            }
+            
+            BUTTON {
+                background-color: #ff0095;
+                color: #ffffff;
+                margin: 12px;
+                position: fixed;
+                top: 85%;
+                left: 46%;
+                font-size: 25px;
+            }
+            
+            #name1 {
+                position: fixed;
+                top: 90%;
+                left: 46%;
+            }
+            
+            #count {
+                color: azure;
+                top: 30%;
+                left: 52%;
+            }
